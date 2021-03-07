@@ -12,3 +12,9 @@
 .right-side {
   width: 50%;
 }
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
