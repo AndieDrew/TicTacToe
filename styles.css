@@ -28,3 +28,27 @@
   border-style: solid;
   border-color: black;
 }
+
+.one,
+.two,
+.three {
+  border-top: none;
+}
+
+.seven,
+.eight,
+.nine {
+  border-bottom: none;
+}
+
+.one,
+.four,
+.seven {
+  border-left: none;
+}
+
+.three,
+.six,
+.nine {
+  border-right: none;
+}
