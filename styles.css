@@ -1,0 +1,9 @@
+.body {
+  background: linear-gradient(to right, #304352, #d7d2cc);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  text-align: center;
+  font-size: 2em;
+}
