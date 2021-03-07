@@ -1,0 +1,60 @@
+.body {
+  background: linear-gradient(to right, #304352, #d7d2cc);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  text-align: center;
+  font-size: 2em;
+}
+
+.left-side,
+.right-side {
+  width: 50%;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.box {
+  cursor: pointer;
+  font-size: 2em;
+  height: 3em;
+  width: 3em;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+.box:hover{
+  background-image: linear-gradient(#8e2de2, #4a00e0);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  background-attachment: fixed;
+}
+
+.one,
+.two,
+.three {
+  border-top: none;
+}
+
+.seven,
+.eight,
+.nine {
+  border-bottom: none;
+}
+
+.one,
+.four,
+.seven {
+  border-left: none;
+}
+
+.three,
+.six,
+.nine {
+  border-right: none;
+}
