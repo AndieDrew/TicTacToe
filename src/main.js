@@ -32,9 +32,6 @@ function clickHandler(event) {
   var storedWins = checkStorage();
   if (event.target.classList.contains("box") && !event.target.classList.contains("used")) {
     printToken(box);
-    // if(newGame.checkIfDone()){
-    //   updateScore(storedWins);
-    // }
     newGame.checkIfDone()
   }
   if (newGame.active === false) {
