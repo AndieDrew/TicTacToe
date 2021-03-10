@@ -29,7 +29,6 @@ function checkStorage() {
 
 function clickHandler(event) {
   var box = event.target.dataset.box;
-  var storedWins = checkStorage();
   if (event.target.classList.contains("box") && !event.target.classList.contains("used")) {
     printToken(box);
     newGame.checkIfDone()
