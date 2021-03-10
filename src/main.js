@@ -15,7 +15,6 @@ var p2Wins = document.querySelector("#p2Wins");
 var boxes = document.querySelectorAll(".box");
 var grid = document.querySelector(".game");
 
-
 grid.addEventListener("click", clickHandler);
 window.addEventListener("load", checkStorage);
 
