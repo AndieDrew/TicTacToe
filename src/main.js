@@ -35,6 +35,7 @@ function clickHandler(event) {
   }
   if (newGame.active === false) {
     displayWin();
+    checkStorage();
     setTimeout(resetBoard, 1500);
     newGame.activate();
     disableClicks();
@@ -89,7 +90,6 @@ function displayWin() {
 
 function resetBoard() {
   newGame.resetDraw();
-  checkStorage();
   for (var i = 0; i < boxes.length; i++) {
     boxes[i].innerHTML = "";
     boxes[i].classList.remove("used");
