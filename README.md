@@ -23,7 +23,7 @@ If you do not know how to play Tic Tac Toe you can find directions [here](https:
 4. Local storage
 
 ## Future Iterations
-- User can input their name
-
+- User can input their name.
+- User can chose their token.
 
 
