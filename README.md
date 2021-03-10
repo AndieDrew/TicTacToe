@@ -8,7 +8,7 @@
 If you do not know how to play Tic Tac Toe you can find directions [here](https://en.wikipedia.org/wiki/Tic-tac-toe)
 
 
-![Annotations](https://media.giphy.com/media/eQT4sgbutNprgpVocp/giphy.gif)
+![Annotations](https://media.giphy.com/media/Bb86WBCaaCD0BFj1lW/giphy.gif)
 
 ## How to Install
 1. `fork` this repository
