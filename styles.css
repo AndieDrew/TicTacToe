@@ -22,11 +22,20 @@
 .box {
   cursor: pointer;
   font-size: 2em;
+  text-align: center;
   height: 3em;
   width: 3em;
   border: 5px;
   border-style: solid;
   border-color: black;
+}
+
+.used {
+  cursor: not-allowed;
+}
+
+.disabled {
+  pointer-events: none;
 }
 
 .box:hover{
