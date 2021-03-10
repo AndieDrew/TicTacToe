@@ -51,17 +51,13 @@ class Game {
       this.resetGame();
     } return checking;
   }
-  //this.winningConditions.forEach(function(condition) WAS NOT WORKING, function removes context of .this but arrow preserves it
-  // console.log(this); and i get the entire class, but with function I don't
+  
   checkWinConditions() {
     return  this.winningConditions.forEach((condition) => {
       if (this.board[condition[0]] && this.board[condition[0]] === this.board[condition[1]] && this.board[condition[1]] === this.board[condition[2]]) {
         this.active = false;
         this.resetGame();
         this.declareWinner();
-        // this.player1.saveWinsToStorage(this.p1Score);
-        // this.player2.saveWinsToStorage(this.p2Score);
-        // return true;
       }
     })
   }
