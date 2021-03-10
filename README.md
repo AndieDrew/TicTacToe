@@ -6,7 +6,7 @@ A game of tic tac toe
 
 More details about the project/More detailed description of the site/app and how to use it. Include gifs for specific functionalities
 
-![Annotations](http://www.giphy.com/gifs/eQT4sgbutNprgpVocp)
+![Annotations](https://media.giphy.com/media/eQT4sgbutNprgpVocp/giphy.gif)
 
 ## How to Install
 1. `fork` this repository
