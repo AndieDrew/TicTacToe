@@ -1,10 +1,11 @@
 # Tic Tac Toe
 
-A game of tic tac toe
+### A solo project by [Andrew Carlin](https://github.com/AndieDrew)
 
 ## Usage
 
-More details about the project/More detailed description of the site/app and how to use it. Include gifs for specific functionalities
+If you do not know how to play Tic Tac Toe you can find directions [here](https://en.wikipedia.org/wiki/Tic-tac-toe)
+
 
 ![Annotations](https://media.giphy.com/media/eQT4sgbutNprgpVocp/giphy.gif)
 
@@ -21,8 +22,7 @@ More details about the project/More detailed description of the site/app and how
 4. Local storage
 
 ## Future Iterations
-List ideas of where you would continue to develop and what you would change if you had the time
+- User can input their name
 
-## Project Members
-This project was designed and implemented by ___
+
 
